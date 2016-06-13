@@ -1,0 +1,9 @@
++ using grid: masonry
+	link: http://masonry.desandro.com/
++ using slide zoom show image is root:etalage
+	link: http://codecanyon.net/item/etalage/180719
+
+
+//composer
++update composer: 
+	--> composer selfupdate

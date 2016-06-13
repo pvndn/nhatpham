@@ -1,0 +1,5 @@
+php -r "copy('.env.example', '.env');" -->rename coppy
+
+multi reset password: 
+	constructor of admin password controller
+	--> Config::set("auth. defaults.passwords","admins");

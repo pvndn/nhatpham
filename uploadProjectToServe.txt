@@ -1,0 +1,16 @@
+step 1: nen file ? .zip ? file manager giai nen
+step 2: tao 1 folder chua source laravel
+step 3: rm -rf public_html(/domains/domain.com/public_html)
+step 4: ln -s <folder laravel>/<public> public_html
+
+chmod -R o+w project/storage
+
+curl -sS https://getcomposer.org/installer | php
+
+php composer install
+
+php composer dumpautoload -o
+
+php artisan config:cache
+
+php artisan route:cache
