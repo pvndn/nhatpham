@@ -7,3 +7,5 @@
 //composer
 +update composer: 
 	--> composer selfupdate
+	
++ sudo rm /var/lib/apt/lists/* -vf 
