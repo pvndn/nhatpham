@@ -3,3 +3,11 @@ git add -A
 git commit -m 'Added my project'
 git remote add origin git@github.com:scotch-io/my-new-project.git
 git push -u -f origin master
+
+#error: Your local changes to the following files would be overwritten by checkout:
+
+git stash save your-file-name
+git checkout master
+# do whatever you had to do with master
+git checkout staging
+git stash pop
