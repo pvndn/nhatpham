@@ -14,3 +14,9 @@
 $app->bind('path.public', function() {
     return __DIR__;
 });
+
+var files = $(elm)[0].files;
+var formData = new formData();
+for(var i = 0; i< files.length; i++){
+formData.append('file[]', files[i]);
+}
