@@ -7,3 +7,5 @@ multi reset password:
 	
 	useradd tennguoidung -m
 sau đó đặt password với lệnh passwd tenguoidung
+
+/etc/init.d/sshd restart
